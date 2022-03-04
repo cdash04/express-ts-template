@@ -1,9 +1,9 @@
-import request from "supertest";
-import { app } from "../app";
+/* eslint-disable import/no-extraneous-dependencies */
+import request from 'supertest';
+import { app } from '../app';
 
-describe("Error page", () => {
-    it("should return 404 for not existing page", () => {
-        return request(app).get("/fake-page")
-            .expect(404);
-    });
+describe('Error page', () => {
+  it('should return 404 for not existing page', () => {
+    return request(app).get('/fake-page').expect(404);
+  });
 });

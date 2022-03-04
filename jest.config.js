@@ -1,4 +1,7 @@
 module.exports = {
+    env: {
+        node: 1,
+    },
     globals: {
         "ts-jest": {
             tsconfig: "tsconfig.json",
