@@ -3,28 +3,30 @@
 # Pre-reqs
 
 - Install [Node.js](https://nodejs.org/en/)
-- Install [VS Code](https://code.visualstudio.com/)
+- Install yarn
+```bash
+  npm install -g yarn
+```
 
 # Getting started
 
-- Clone the repository
-
-```
-git clone https://github.com/greenroach/express-ts-template.git
-```
 
 - Install dependencies
 
-```
-cd <project_name>
-npm install
+```bash
+  yarn install
 ```
 
 - Build and run the project
 
+```bash
+  yarn build
+  yarn start
 ```
-npm run build
-npm start
+
+- Run the project on dev mode (watch)
+```bash
+  yarn watch
 ```
 
 Navigate to `http://localhost:3000`
